@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'wizzard-example';
+
+  finishFunction(){
+    console.log("Wizzard Finish");
+  }
+
 }
